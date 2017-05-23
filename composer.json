@@ -11,6 +11,5 @@
         }
     ],
     "minimum-stability": "stable",
-    "minimum-stability": "master",
     "require": {}
 }
