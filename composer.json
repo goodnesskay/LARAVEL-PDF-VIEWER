@@ -10,6 +10,10 @@
             "email": "gtkbrain@gmail.com"
         }
     ],
+<<<<<<< HEAD
     "minimum-stability": "stable",
+=======
+    "minimum-stability": "master",
+>>>>>>> 4ffe57e305db3515e24a77e83297a3aede77f66c
     "require": {}
 }
