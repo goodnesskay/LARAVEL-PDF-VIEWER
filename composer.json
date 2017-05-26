@@ -10,7 +10,7 @@
             "email": "gtkbrain@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
