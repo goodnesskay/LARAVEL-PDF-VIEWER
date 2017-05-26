@@ -1,2 +1,54 @@
-# Laravel-PDF-VIEWER
-This package is meant to help with viewing portable document file(PDF) on the web when developing with Laravel.
+## Laravel PDF VIEWER
+
+[![Latest Stable Version](https://poser.pugx.org/goodnesskay/laravel-slack/v/stable)](https://packagist.org/packages/goodnesskay/laravel-slack)
+[![License](https://poser.pugx.org/goodnesskay/laravel-slack/license)](https://packagist.org/packages/goodnesskay/laravel-slack)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/build-status/master)
+
+> This package is meant to help with viewing portable document file(PDF) on the web seamlessly when developing with Laravel. The package makes use of [ViewerJS](https://viewerjs.org) 
+
+## Requirement
+
+- [PHP](https://php.net) 5.6+ 
+- [Composer](https://getcomposer.org)
+- Pdf files
+
+## Installation
+To install into your project, run the command below in your terminal.
+
+```
+composer require goodnesskay/laravelpdfviewer
+```
+
+Once the package is done being installed, register the service provider. Open `config/app.php` and add the following to the `providers` key.
+
+ ```
+ Goodnesskay\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
+ ```
+ 
+ ## Configure
+ Run this in your terminal:
+ ```
+php artisan vendor:publish --provider="Goodnesskay\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class" 
+```
+It will publish a folder named `laraview` to the root folder of your project.
+
+##  How it Works
+
+## Contribute
+
+You can `fork` this package, `contribute` and `submit a pull request`. I will really love it.
+
+##  You want to appreciate me?
+
+You can appreciate me by **starring** this repository and follow me on [Github](https://github.com/goodnesskay) , [twitter](https://twitter.com/goodnesskayode) and subscribe to my [Youtube](https://www.youtube.com/channel/UC3h5EkjLBS5VtpJRVRrMD-Q) Channel!
+
+I love you too.
+
+**Goodness Kayode | Pusher of Codes**
+
+
+## License
+
+MIT License (MIT).
+
