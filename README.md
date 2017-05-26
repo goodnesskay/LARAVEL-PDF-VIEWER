@@ -45,6 +45,8 @@ It should look like this:
 ```
 Then, you should have something like this:
 
+![Goodness Kayode Laravel-pdfviewer](https://cloud.githubusercontent.com/assets/16525886/26499445/9483e444-422a-11e7-81cf-9569b8f33669.png)
+
 
 **Note:** 
 > After `#../` in `{{ asset('/laraview/#../folder-name/the-pdf-file.pdf') }}`, what should follow is the folder name of the pdf files in the public 
