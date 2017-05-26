@@ -5,7 +5,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/Laravel-Slack/build-status/master)
 
-> This package is meant to help with viewing portable document file(PDF) on the web seamlessly when developing with Laravel. The package makes use of [ViewerJS](https://viewerjs.org) 
+> This package is meant to help with viewing portable document file(PDF) on the web seamlessly when developing with Laravel. The package makes use of [ViewerJS](http://viewerjs.org) 
 
 ## Requirement
 
@@ -34,6 +34,23 @@ php artisan vendor:publish --provider="Goodnesskay\LaravelPdfViewer\LaravelPdfVi
 It will publish a folder named `laraview` to the root folder of your project.
 
 ##  How it Works
+Simple!!! After installations and configurations have been carried out successfully, add the code below to your html file
+ ```
+ {{ asset('/laraview/#../folder-name/the-pdf-file.pdf') }}
+
+```
+It should look like this:
+```
+<iframe src ="{{ asset('/laraview/#../pdf/test.pdf') }}" width="1000px" height="600px"></iframe>
+```
+Then, you should have something like this:
+
+
+**Note:** 
+> After `#../` in `{{ asset('/laraview/#../folder-name/the-pdf-file.pdf') }}`, what should follow is the folder name of the pdf files in the public 
+folder then, the pdf file name can follow.
+
+
 
 ## Contribute
 
@@ -43,7 +60,7 @@ You can `fork` this package, `contribute` and `submit a pull request`. I will re
 
 You can appreciate me by **starring** this repository and follow me on [Github](https://github.com/goodnesskay) , [twitter](https://twitter.com/goodnesskayode) and subscribe to my [Youtube](https://www.youtube.com/channel/UC3h5EkjLBS5VtpJRVRrMD-Q) Channel!
 
-I love you too.
+I love you like mad.
 
 **Goodness Kayode | Pusher of Codes**
 
