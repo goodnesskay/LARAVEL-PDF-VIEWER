@@ -1,0 +1,20 @@
+{
+    "name": "goodnesskay/laravelpdfviewer",
+    "description": "A Laravel Package for viewing PDF files or documents on Web App",
+    "type": "laravel package",
+    "license": "MIT",
+    "keywords": ["laravel","pdf-viewer","laravel-viewerJS","ViewerJS"],
+    "authors": [
+        {
+            "name": "Goodness Toluwanimi Kayode",
+            "email": "gtkbrain@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev-master",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GoodnessKay\\LaravelPdfViewer\\": "src/"
+        }
+    }
+}
