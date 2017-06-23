@@ -28,7 +28,7 @@ Once the package is done being installed, register the service provider. Open `c
  ## Configure
  Run this in your terminal:
  ```
-php artisan vendor:publish --provider="Goodnesskay\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class" 
+php artisan vendor:publish --public="laraview" 
 ```
 It will publish a folder named `laraview` to the root folder of your project.
 
